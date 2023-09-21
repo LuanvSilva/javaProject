@@ -30,7 +30,7 @@ import lombok.experimental.SuperBuilder;
 @Entity
 @Table(name= "usuario")
 public class Usuario extends GenericEntity<Long>{
-
+///
     @Setter()
     @Column(nullable = false,length = 300)
     private String nome;
